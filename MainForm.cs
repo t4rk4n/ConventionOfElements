@@ -145,13 +145,13 @@ namespace ConventionOfElements
 			labelCounter.Text = "";
 			labelBuffText.Text = "";
 
-			_buffs.Add("Arcane");
+			//_buffs.Add("Arcane");
+			_buffs.Add("Lightning");
+			_buffs.Add("Physical");
 			_buffs.Add("Cold");
 			_buffs.Add("Fire");
 			_buffs.Add("Holy");
-			_buffs.Add("Lightning");
-			_buffs.Add("Physical");
-			_buffs.Add("Poison");
+			//_buffs.Add("Poison");
 		}
 
 		private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
