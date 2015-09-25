@@ -42,7 +42,7 @@
 			// buttonStart
 			// 
 			this.buttonStart.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-			this.buttonStart.Location = new System.Drawing.Point(12, 231);
+			this.buttonStart.Location = new System.Drawing.Point(12, 229);
 			this.buttonStart.Name = "buttonStart";
 			this.buttonStart.Size = new System.Drawing.Size(75, 23);
 			this.buttonStart.TabIndex = 0;
@@ -57,10 +57,9 @@
 			// 
 			// labelInfoText
 			// 
-			this.labelInfoText.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+			this.labelInfoText.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.labelInfoText.Font = new System.Drawing.Font("BankGothic Md BT", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.labelInfoText.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.labelInfoText.ForeColor = System.Drawing.Color.White;
 			this.labelInfoText.Location = new System.Drawing.Point(12, 9);
 			this.labelInfoText.Name = "labelInfoText";
@@ -73,7 +72,7 @@
 			// buttonExit
 			// 
 			this.buttonExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.buttonExit.Location = new System.Drawing.Point(247, 231);
+			this.buttonExit.Location = new System.Drawing.Point(247, 229);
 			this.buttonExit.Name = "buttonExit";
 			this.buttonExit.Size = new System.Drawing.Size(75, 23);
 			this.buttonExit.TabIndex = 2;
@@ -83,12 +82,12 @@
 			// 
 			// labelCounter
 			// 
-			this.labelCounter.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+			this.labelCounter.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.labelCounter.Font = new System.Drawing.Font("BankGothic Md BT", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.labelCounter.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.labelCounter.ForeColor = System.Drawing.Color.White;
 			this.labelCounter.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-			this.labelCounter.Location = new System.Drawing.Point(12, 173);
+			this.labelCounter.Location = new System.Drawing.Point(12, 177);
 			this.labelCounter.Name = "labelCounter";
 			this.labelCounter.Size = new System.Drawing.Size(310, 35);
 			this.labelCounter.TabIndex = 3;
@@ -101,14 +100,12 @@
 			this.comboBoxBuffs.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
 			this.comboBoxBuffs.FormattingEnabled = true;
 			this.comboBoxBuffs.Items.AddRange(new object[] {
-            "Arcane",
-            "Cold",
-            "Fire",
-            "Holy",
             "Lightning",
             "Physical",
-            "Poison"});
-			this.comboBoxBuffs.Location = new System.Drawing.Point(116, 233);
+            "Cold",
+            "Fire",
+            "Holy"});
+			this.comboBoxBuffs.Location = new System.Drawing.Point(115, 230);
 			this.comboBoxBuffs.Name = "comboBoxBuffs";
 			this.comboBoxBuffs.Size = new System.Drawing.Size(105, 21);
 			this.comboBoxBuffs.TabIndex = 4;
@@ -116,14 +113,13 @@
 			// 
 			// labelBuffText
 			// 
-			this.labelBuffText.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+			this.labelBuffText.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.labelBuffText.Font = new System.Drawing.Font("BankGothic Md BT", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.labelBuffText.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.labelBuffText.ForeColor = System.Drawing.Color.White;
 			this.labelBuffText.Location = new System.Drawing.Point(12, 114);
 			this.labelBuffText.Name = "labelBuffText";
-			this.labelBuffText.Size = new System.Drawing.Size(310, 59);
+			this.labelBuffText.Size = new System.Drawing.Size(310, 63);
 			this.labelBuffText.TabIndex = 5;
 			this.labelBuffText.Text = "label3";
 			this.labelBuffText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -134,7 +130,7 @@
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.Black;
-			this.ClientSize = new System.Drawing.Size(334, 271);
+			this.ClientSize = new System.Drawing.Size(334, 269);
 			this.Controls.Add(this.labelBuffText);
 			this.Controls.Add(this.comboBoxBuffs);
 			this.Controls.Add(this.labelCounter);

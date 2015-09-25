@@ -42,9 +42,10 @@ namespace ConventionOfElements
 		{
 			if (_alert == -1)
 			{
-				MessageBox.Show("Please select from dropdown what buff you want to track!");
+				MessageBox.Show("Please select from dropdown what buff you want to track!", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
 				return;
 			}
+			
 			if (timerPerSecond.Enabled)
 			{
 				timerPerSecond.Stop();
@@ -52,6 +53,7 @@ namespace ConventionOfElements
 			}
 			else
 			{
+				if (MessageBox.Show("Press OK when Lightning is up!", "Start", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.Cancel) return;
 				timerPerSecond.Start();
 				_buff = 0;
 				buttonStart.Text = "Pause";
@@ -167,4 +169,3 @@ namespace ConventionOfElements
 
 	}
 }
-
